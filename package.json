@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "getblock": "node ./scripts/index.js",
+    "getblock": "node ./scripts/getblock.js",
     "analyze": "node ./scripts/analyze.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,9 +1,9 @@
 /**
- * Command: node analyze.js {{thresholds(in second)}} {{milestone}}
+ * Command: node analyze.js {{threshold(in second)}} {{milestone}}
  * 
  * The script returns two results as json files.
- * Result #1 (block_time.json): List of Block # and block time which block time is over threshold
- * Result #2 (average_time.json): Average block time every milestone
+ * Result #1 (/output/block_time.json): List of Block # and block time which is over threshold block time
+ * Result #2 (/output/average_time.json): Average block time every milestone
  */
 
 const config = require('../config');
