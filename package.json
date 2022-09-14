@@ -1,0 +1,20 @@
+{
+  "name": "bitcoin-block-time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "getblock": "node index.js",
+    "analyze": "node analyze.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "delay": "^5.0.0",
+    "dotenv": "^16.0.2",
+    "knex": "^2.3.0",
+    "pg": "^8.8.0"
+  }
+}
