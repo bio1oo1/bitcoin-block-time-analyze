@@ -2,7 +2,7 @@
  * Get block infomation and store them in database
  */
 
-const config = require('./config');
+const config = require('../config');
 const axios = require("axios").default;
 const delay = require('delay');
 const knex = require('knex')(config.knex);
@@ -22,7 +22,7 @@ let apiOptions = {
         
         // Get last height
         let lastHeight = await knex('block_history').max('height', {as: 'height'});
-        console.log(lastHeight);
+        // console.log(lastHeight);
         let height;
         if (lastHeight[0]['height'] == null) {
             height = 0;
