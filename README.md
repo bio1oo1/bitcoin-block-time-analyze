@@ -1,21 +1,22 @@
+## Bitcoin Block Time Analyze
 ### Features
 
 - Get block infomation of bitcoin network and store them in database.
 - Analyze block time.
 
 ### Usage
-##### Setup database
+#### Setup database
 - Install PostgreSQL v14.x
 - Create database called `blocktime_db`
 - Execute dump file `/sql_dump/block_history_structure.sql`
 
-##### Install dependencies
+#### Install dependencies
 `$ npm install`
 
-##### Get block info
+#### Get block info
 `$ npm getblock`
 
-##### Analyze block time
+#### Analyze block time
 `$ npm analyze {{threshold}} {{milestone}}
 
 The script returns two results as json files.
