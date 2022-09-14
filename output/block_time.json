@@ -1,7 +1,7 @@
 {
-	"total_blocks": 50194,
-	"average_block_time": "796.33",
-	"overtime_count": 140,
+	"total_blocks": 82834,
+	"average_block_time": "661.26",
+	"overtime_count": 145,
 	"overtime_blocks": [
 		{
 			"height": "28702",
@@ -32,6 +32,31 @@
 			"height": "32647",
 			"block_timestamp": "1262423115",
 			"block_time": "12534"
+		},
+		{
+			"height": "69515",
+			"block_timestamp": "1279764284",
+			"block_time": "7281"
+		},
+		{
+			"height": "70665",
+			"block_timestamp": "1280255512",
+			"block_time": "7994"
+		},
+		{
+			"height": "70718",
+			"block_timestamp": "1280284347",
+			"block_time": "8153"
+		},
+		{
+			"height": "74638",
+			"block_timestamp": "1281916439",
+			"block_time": "24676"
+		},
+		{
+			"height": "76594",
+			"block_timestamp": "1282866244",
+			"block_time": "7269"
 		},
 		{
 			"height": "1",
