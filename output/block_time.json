@@ -1,7 +1,7 @@
 {
-	"total_blocks": 102985,
-	"average_block_time": "623.04",
-	"overtime_count": 145,
+	"total_blocks": 107826,
+	"average_block_time": "617.58",
+	"overtime_count": 146,
 	"overtime_blocks": [
 		{
 			"height": "69515",
@@ -727,6 +727,11 @@
 			"height": "32647",
 			"block_timestamp": "1262423115",
 			"block_time": "12534"
+		},
+		{
+			"height": "105909",
+			"block_timestamp": "1296705869",
+			"block_time": "7231"
 		}
 	]
 }
