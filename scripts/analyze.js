@@ -38,6 +38,7 @@ const knex = require('knex')(config.knex);
             SELECT height, block_timestamp, block_time
             FROM block_history
             WHERE block_time IS NOT NULL AND block_time > ${args[0]}
+            ORDER BY height ASC
         `;
         let result = await knex.raw(query);
         let rows = result.rows;

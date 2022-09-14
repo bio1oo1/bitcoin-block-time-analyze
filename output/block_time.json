@@ -1,33 +1,8 @@
 {
-	"total_blocks": 107826,
-	"average_block_time": "617.58",
+	"total_blocks": 108041,
+	"average_block_time": "617.20",
 	"overtime_count": 146,
 	"overtime_blocks": [
-		{
-			"height": "69515",
-			"block_timestamp": "1279764284",
-			"block_time": "7281"
-		},
-		{
-			"height": "70665",
-			"block_timestamp": "1280255512",
-			"block_time": "7994"
-		},
-		{
-			"height": "70718",
-			"block_timestamp": "1280284347",
-			"block_time": "8153"
-		},
-		{
-			"height": "74638",
-			"block_timestamp": "1281916439",
-			"block_time": "24676"
-		},
-		{
-			"height": "76594",
-			"block_timestamp": "1282866244",
-			"block_time": "7269"
-		},
 		{
 			"height": "1",
 			"block_timestamp": "1231469665",
@@ -727,6 +702,31 @@
 			"height": "32647",
 			"block_timestamp": "1262423115",
 			"block_time": "12534"
+		},
+		{
+			"height": "69515",
+			"block_timestamp": "1279764284",
+			"block_time": "7281"
+		},
+		{
+			"height": "70665",
+			"block_timestamp": "1280255512",
+			"block_time": "7994"
+		},
+		{
+			"height": "70718",
+			"block_timestamp": "1280284347",
+			"block_time": "8153"
+		},
+		{
+			"height": "74638",
+			"block_timestamp": "1281916439",
+			"block_time": "24676"
+		},
+		{
+			"height": "76594",
+			"block_timestamp": "1282866244",
+			"block_time": "7269"
 		},
 		{
 			"height": "105909",
