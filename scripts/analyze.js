@@ -57,6 +57,7 @@ const knex = require('knex')(config.knex);
         let json = {
             total_blocks: totalCount,
             average_block_time: totalAverageTime,
+            threshold_time: args[0],
             overtime_count: rows.length,
             overtime_blocks: rows
         }

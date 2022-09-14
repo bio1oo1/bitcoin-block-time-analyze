@@ -1,6 +1,7 @@
 {
-	"total_blocks": 131126,
-	"average_block_time": "588.49",
+	"total_blocks": 140178,
+	"average_block_time": "583.91",
+	"threshold_time": 7200,
 	"overtime_count": 146,
 	"overtime_blocks": [
 		{
