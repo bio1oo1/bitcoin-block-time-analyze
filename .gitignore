@@ -39,3 +39,4 @@ node_modules/
 
 /yarn.lock
 /sql_dump/block_history_data.sql
+/scripts/index_promise.js
