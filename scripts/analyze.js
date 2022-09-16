@@ -35,9 +35,9 @@ const knex = require('knex')(config.knex);
 
         // Get overtimed block list
         let query = `
-            SELECT height, block_timestamp, block_time
+            SELECT height, block_timestamp, real_block_time AS block_time
             FROM block_history
-            WHERE block_time IS NOT NULL AND block_time > ${args[0]}
+            WHERE block_time IS NOT NULL AND real_block_time > ${args[0]}
             ORDER BY height ASC
         `;
         let result = await knex.raw(query);
