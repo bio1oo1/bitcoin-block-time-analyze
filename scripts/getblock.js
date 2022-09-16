@@ -53,7 +53,8 @@ let apiOptions = {
                 } else {
                     if (height > 0) {               // calculate block time
                         let lastBlockInfo = await knex('block_history').select('block_timestamp').where({height: height-1});
-                        data.block_time = data.block_timestamp - lastBlockInfo[0]['block_timestamp'];
+                        data.real_block_time = data.block_timestamp - lastBlockInfo[0]['block_timestamp'];
+                        data.block_time = data.real_block_time > 0 ? data.real_block_time : 0;
                     } 
                     let info = await knex('block_history').select('*').where({height: height});
                     info.length == 0 && await knex('block_history').insert(data);
