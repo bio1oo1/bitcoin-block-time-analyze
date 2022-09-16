@@ -12,7 +12,7 @@
  Target Server Version : 140000
  File Encoding         : 65001
 
- Date: 14/09/2022 10:39:41
+ Date: 17/09/2022 01:02:34
 */
 
 
@@ -45,6 +45,7 @@ CREATE TABLE "public"."block_history" (
   "stripped_size" int8,
   "block_timestamp" int8,
   "curr_max_timestamp" int8,
-  "block_time" int8
+  "block_time" int8,
+  "real_block_time" int8
 )
 ;
